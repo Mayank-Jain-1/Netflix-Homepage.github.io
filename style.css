@@ -105,7 +105,7 @@ body{
 }
 
 .inputRow{
-  max-width: 640px;
+  max-width: 800px !important;
   margin: 0px auto !important;
 }
 
@@ -122,8 +122,17 @@ body{
   padding: 70px 45px;
 }
 
+.ft-heading{
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.ft-desc{
+  font-size: 26px;
+}
+
 .tv-content{
-  max-width: 1100px;
+  max-width: 1200px;
   margin: auto;
 }
 .tv-frame{
@@ -133,7 +142,14 @@ body{
 .box-video{
   position: absolute;
   width: 73%;
-  transform: translateY(-5px);
+  height: 100%;
+  left: 50%;
+  max-height: 56%;
+  max-width: 73%;
+  position: absolute;
+  top: 46%;
+  transform: translate(-51%,-46%);
+  width: 100%;
 }
 
 @media (width>1444px) {
@@ -151,10 +167,27 @@ body{
   }
 }
 
+@media (width<992px){
+  .inputRow{
+    max-width: 640px !important;
+  }
+  .ft-heading{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .ft-desc{
+    text-align: center;
+    font-size: 20px;
+  }
+}
+
 @media (width<768px) {
   .email-button{
     font-size: 16px;
   }
+
 }
 
 @media (width<547px){
@@ -168,5 +201,19 @@ body{
   
   .searchDesc h6{
     font-size: 16px;
+  }
+  .ft-heading{
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  
+  .ft-desc{
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .tv{
+    padding: 50px 30px;
   }
 }
