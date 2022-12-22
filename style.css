@@ -267,6 +267,11 @@ body{
   color: #737373;
 }
 
+.f-link:hover{
+  color: white;
+  text-decoration: underline;
+}
+
 
 .f-language{
   display: flex;
