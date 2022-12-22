@@ -202,6 +202,7 @@ body{
 .faq-div{
   background-color: black;
   border-bottom: 8px solid #222;
+  padding-bottom: 80px;
 }
 
 .box-video-img{
@@ -244,13 +245,49 @@ body{
 
 .sub-heading{
   font-size:20px;
-  margin: 10px 0;
+  margin: 20px 0 10px 0;
 }
 
 .footer{
   width: 100%;
   background-color: black;
-  height: 400px;
+  padding:100px 0 ;
+}
+
+.footer-content{
+  margin: auto;
+  max-width: 1200px;
+  font-size: 16px;
+  color: #737373;
+  padding:0 70px;
+}
+
+.f-link{
+  text-decoration: none;
+  color: #737373;
+}
+
+
+.f-language{
+  display: flex;
+  align-items: center;
+}
+
+.f-language i{
+  transform: scale(1.5);
+  color: #737373;
+  left: 20px;
+}
+
+
+
+.f-language select{
+  background-color: rgba(0,0,0,0.4);
+  color: white;
+  padding: 12px 26px 16px 50px ;
+  border-radius: 2px;
+  font-size: 16px;
+  color: #737373;
 }
 
 @media (width>1444px) {
@@ -305,6 +342,9 @@ body{
   .sub-heading{
     font-size: 18px;
     padding: 0px 20px;
+  }
+  .footer-content{
+    padding:0 40px;
   }
 }
 
