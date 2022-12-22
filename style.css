@@ -152,6 +152,59 @@ body{
   width: 100%;
 }
 
+
+.downloadImgDiv{
+  transform: translateX(-100px);
+}
+
+.img-over{
+  position: absolute;
+  bottom: 8%;
+  z-index: 3;
+  background-color: bisque;
+  width: 55%;
+  padding: 10px 15px;
+  border: 1px solid #777;
+  border-radius: 10px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img-over-desc{
+  margin-left: 6%;
+  width: 100%;
+}
+
+.img-over-desc h6{
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+
+.img-over-desc p{
+  font-size: 14px;
+  color:#0071eb;
+  margin-bottom: 0px;
+}
+
+.img-over i{
+  margin-right: 4%;
+}
+
+.img-over img{
+  width: 20%;
+}
+
+.box-video-img{
+  position: absolute;
+  top: 8%;
+  left: 20%;
+  width: 60%;
+  height: 55%;
+}
+
+
 @media (width>1444px) {
   .searchDesc h1{
     font-size: 64px;
@@ -180,6 +233,9 @@ body{
   .ft-desc{
     text-align: center;
     font-size: 20px;
+  }
+  .downloadImgDiv{
+    transform: translateX(00px);
   }
 }
 
