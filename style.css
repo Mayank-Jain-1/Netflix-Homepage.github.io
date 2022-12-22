@@ -6,12 +6,14 @@
 
 body{
   width: 100vw;
-  display: flex;
   justify-content: center;
   font-family: 'Bebas Neue', cursive;
   font-family: 'Poppins', sans-serif;
 }
 
+.noDisplay{
+  display: none !important;
+}
 
 .header{
   width: 100%;
@@ -228,33 +230,28 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* width: 100vw; */
+  margin-bottom: 15px;
 }
 
 .answer{
-  display: none;
+  width: 100%;
+  padding: 20px 50px;
+  background-color: #303030;
+  font-size: 26px;
+  margin-top: -15px;
+  margin-bottom: 15px;
 }
 
-.question input{
-  opacity: 0;
+.sub-heading{
+  font-size:20px;
+  margin: 10px 0;
 }
 
-.zmdi-caret-up{
-  display: none;
+.footer{
+  width: 100%;
+  background-color: black;
+  height: 400px;
 }
-
-.question input:checked ~ .zmdi-caret-down{
-  display: none;
-}
-
-.question input:checked ~ .zmdi-caret-up{
-  display: block;
-}
-
-.question input:checked ~ .answer{
-  display: inline;
-}
-
 
 @media (width>1444px) {
   .searchDesc h1{
@@ -288,13 +285,27 @@ body{
   .downloadImgDiv{
     transform: translateX(00px);
   }
+  .sub-heading{
+    font-size: 23px;
+    padding: 0px 100px;
+  }
+
+  .question{
+      font-size: 20px;
+  }
+  .answer{
+    font-size: 20px;
+  }
 }
 
 @media (width<768px) {
   .email-button{
     font-size: 16px;
   }
-
+  .sub-heading{
+    font-size: 18px;
+    padding: 0px 20px;
+  }
 }
 
 @media (width<547px){
@@ -327,4 +338,14 @@ body{
   .question-heading{
     font-size: 26px;
   }
+
+  .question{
+      font-size: 18px;
+      padding:20px 20px;
+  }
+  .answer{
+    font-size: 18px;
+    padding:20px 20px;
+  }
+
 }
