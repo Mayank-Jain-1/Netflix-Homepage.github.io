@@ -6,4 +6,5 @@ const displayAnswer = (e) => {
   caretUp.classList.toggle('noDisplay')
   const answer = document.getElementById(`answer${e}`)
   answer.classList.toggle('noDisplay')
+  
 }
