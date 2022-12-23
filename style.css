@@ -20,7 +20,7 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1900px;
+  max-width: 2050px;
   position:absolute;
   z-index: 2;
   padding: 28px 5%;
