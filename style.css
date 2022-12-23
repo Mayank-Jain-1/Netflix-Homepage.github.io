@@ -24,6 +24,8 @@ body{
   position:absolute;
   z-index: 2;
   padding: 28px 5%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .navLogo{
